@@ -1,0 +1,111 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #1F2937; /* Default text color */
+}
+
+/* Header styles */
+.top-section {
+    background-color: #1F2937; /* Dark background */
+    padding: 20px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-logo {
+    width: 100px;
+    height: auto;
+}
+
+.right-image {
+    width: 300px;
+    height: auto;
+}
+
+.header-nav a {
+    color: #E5E7EB; /* Light text color */
+    text-decoration: none;
+    font-size: 18px; /* Link text size */
+}
+
+.main-content {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px; /* Adjust as needed */
+}
+
+.left-content h1 {
+    font-size: 48px; /* Main title size */
+    font-weight: 800; /* Extra bold */
+    color: #F9FAF8; /* Light text color */
+}
+
+.left-content p {
+    font-size: 18px;
+    color: #E5E7EB; /* Light text color */
+}
+
+.sign-up {
+    background-color: #3882F6; /* Button color */
+    color: #FFFFFF; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Info section styles */
+.info-section {
+    background-color: white; /* Light background color */
+    text-align: center;
+    padding: 20px 0;
+}
+
+.info-section h2 {
+    font-size: 36px;
+    font-weight: 800; /* Extra bold */
+}
+
+.info-cards {
+    display: flex;
+    flex-wrap: wrap; /* Allows cards to wrap to the next line on smaller screens */
+    justify-content: center; /* Centers cards in the container */
+    gap: 20px; /* Spacing between cards */
+}
+
+.info-card {
+    width: calc(25% - 20px); /* Adjust width for 4 cards in a row, accounting for the gap */
+    text-align: center; /* Center the text under the image */
+}
+
+.info-card img {
+    width: 100%; /* Make images responsive within the card */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 200px; /* Set a max-width if desired */
+    margin-bottom: 10px; /* Space between image and text */
+}
+
+
+/* Quote section styles */
+.quote-section {
+    background-color: #E5E7EB; /* Light background color */
+    padding: 20px 0;
+    font-style: italic;
+    color: #1F2937; /* Dark text color */
+    text-align: center;
+}
+
+/* Call to action section styles */
+.cta-section {
+    background-color: #1F2937; /* Dark background */
+    color: #F9FAF8; /* Light text color */
+    text-align: center;
+    padding: 20px 0;
+}
